@@ -29,7 +29,7 @@ module.exports = {
         ]
     },
     externals: {
-        'ace': 'ace'
+
     },
     devtool: 'source-map',
     context: __dirname + '/app',
@@ -43,15 +43,12 @@ module.exports = {
     module: {
         loaders: [
             {test: /jquery\.js$/, loader: 'expose?$' },
-            {test: /jquery\.js$/, loader: 'expose?jQuery' },
             {
                 test: /\.js$/,
                 exclude: /node_modules|bower_components|vendor/,
                 loader: 'webpack-traceur?runtime=true&sourceMaps&experimental=true!jshint'
             },
             {test: /[\/\\]angular.min\.js$/, loader: "exports?angular"},
-            {test: /[\/\\]register\.js$/, loader: "exports?register"},
-            {test: /[\/\\]ace.min\.js$/, loader: "exports?ace"},
             {test: /\.png$/, loader: 'url?mimetype=image/png'},
             {test: /\.html$/, loader: 'raw', exclude: /node_modules|bower_components|vendor/},
             {test: /\.less$/, loader: "style!css!less"},
