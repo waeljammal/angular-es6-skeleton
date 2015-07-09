@@ -1,17 +1,21 @@
 {
-  "name": "sitebuilder-frontend",
-  "description": "SiteBuilder frontend for managing single page portal applications",
+  "name": "angular-webpack-es6-skeleton",
+  "description": "Skeleton project for working with Angular JS / ES6 and Webpack",
   "version": "0.1.0",
-  "homepage": "https://bitbucket.org/one-way/sitebuilder-frontend",
+  "homepage": "https://github.com/waeljammal/angular-es6-skeleton",
   "author": {
-    "name": "Dev Team",
-    "email": "developers@askoneway.com"
+    "name": "Wael Jammal",
+    "email": "waeljammal@msn.com"
+  },
+  "author": {
+    "name": "Daniele Zurico",
+    "email": ""
   },
   "keywords": [
-    "angularjs"
+    "angularjs, webpack, es6, karma, esdoc"
   ],
   "bugs": {
-    "url": "https://bitbucket.org/one-way/sitebuilder-frontend/issues"
+    "url": "https://github.com/waeljammal/angular-es6-skeleton/issues"
   },
   "main": "app/index.js",
   "scripts": {
