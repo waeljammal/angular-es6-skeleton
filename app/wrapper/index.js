@@ -23,7 +23,6 @@ angular.module(moduleName, [
     'toaster',
     'ct.ui.router.extras',
     'ui.bootstrap',
-    'ngAnimate',
 
     // These are module dependencies of the wrapper
     require('authentication'),
